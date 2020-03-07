@@ -1,0 +1,32 @@
+#
+# scc v0.8
+# processed: Mon Feb 10 13:42:13 UTC 2020
+#
+# This is a scc output file, do not edit
+#
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-plnx-generated/recipes-kernel/linux
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux
+# _reloc_dir /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux
+kconf /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0/defconfig # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-plnx-generated/recipes-kernel/linux/configs/plnx_kernel.cfg # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/bsp.cfg # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/user_2020-01-26-19-50-00.cfg # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/user_2020-01-29-11-57-00.cfg # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/user_2020-01-30-18-53-00.cfg # non-hardware
+kconf /home/lamp4you/project/zynq/zcu-102/project-spec/meta-user/recipes-kernel/linux/linux-xlnx/user_2020-02-02-12-02-00.cfg # non-hardware
+# _mark xen.scc start
+# _define KFEATURE_DESCRIPTION 'Xen Kernel Support'
+# _define KFEATURE_COMPATIBILITY 'arch'
+kconf /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0/xilinx-kmeta/bsp/xilinx/xen.cfg # non-hardware
+# _mark xen.scc end
+# _mark openamp.scc start
+# _define KFEATURE_DESCRIPTION 'OpenAMP Kernel Support'
+# _define KFEATURE_COMPATIBILITY 'arch'
+kconf /home/lamp4you/project/zynq/zcu-102/build/tmp/work/zcu102_zynqmp-xilinx-linux/linux-xlnx/4.19-xilinx-v2019.1+git999-r0/openamp-kmeta/cfg/openamp.cfg # non-hardware
+# _mark openamp.scc end

@@ -1,0 +1,9 @@
+configs//./defconfig # non-hardware
+configs//./plnx_kernel.cfg # non-hardware
+configs//./bsp.cfg # non-hardware
+configs//./user_2020-01-26-19-50-00.cfg # non-hardware
+configs//./user_2020-01-29-11-57-00.cfg # non-hardware
+configs//./user_2020-01-30-18-53-00.cfg # non-hardware
+configs//./user_2020-02-02-12-02-00.cfg # non-hardware
+configs//bsp/xilinx/xen.cfg # non-hardware
+configs//cfg/openamp.cfg # non-hardware

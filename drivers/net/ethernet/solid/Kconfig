@@ -1,0 +1,36 @@
+#
+# SOLID Ethernet device configuration
+#
+
+config NET_VENDOR_SOLID
+	bool "SOLiD devices"
+	default y
+	depends on ARCH_ZYNQ || ARCH_ZYNQMP
+	---help---
+	  If you have a network (Ethernet) card belonging to this class, say Y.
+
+	  Note that the answer to this question doesn't directly affect the
+	  kernel: saying N will just cause the configurator to skip all
+	  the questions about SOLiD devices. If you say Y, you will be asked
+	  for your specific card in the following questions.
+
+if NET_VENDOR_SOLID
+
+config SOLID_DUMMY_NET
+	tristate "SOLiD Dummy net driver support"
+	tristate "Dummy net driver support"
+	---help---
+	  This is essentially a bit-bucket device (i.e. traffic you send to
+	  this device is consigned into oblivion) with a configurable IP
+	  address. It is most commonly used in order to make your currently
+	  inactive SLIP address seem like a real address for local programs.
+	  If you use SLIP or PPP, you might want to say Y here. It won't
+	  enlarge your kernel. What a deal. Read about it in the Network
+	  Administrator's Guide, available from
+	  <http://www.tldp.org/docs.html#guide>.
+
+	  To compile this driver as a module, choose M here: the module
+	  will be called dummy.
+
+endif # NET_VENDOR_SOLID
+
